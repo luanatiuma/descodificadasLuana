@@ -1,0 +1,9 @@
+.boxModel {
+    border: double;
+    border-color: orange;
+}
+
+.imgBoxModel {
+    height: 400px;
+    width: 400px;
+}

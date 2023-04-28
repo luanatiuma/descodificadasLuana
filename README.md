@@ -1,1 +1,1 @@
-# descodificadasLuana
+Repositório que será utilizado para adicionar as tarefas da plataforma de estudos Descodificadas
