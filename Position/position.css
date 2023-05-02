@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main > p {
+    width: 60%;
+    font-size: 30px;
+    padding: 0px 35px;
+}
+
+.adaLovelace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 800px;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.adaLovelace > img {
+    height: 90%;
+    width: 70%;
+    object-fit: cover;
+}
+
+.adaLovelace > strong {
+    font-size: 40px;
+    background-color: gray;
+    width: 95%;
+    height: 50px;
+    margin-bottom: 10px;
+}
