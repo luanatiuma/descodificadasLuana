@@ -1,9 +1,14 @@
 .boxModel {
-    border: double;
-    border-color: orange;
-}
-
-.imgBoxModel {
+    border: 10px double orange;
+    border-spacing: 50;
     height: 400px;
     width: 400px;
+    padding: 20px;
+    background-color: black;
+}
+
+.boxModel > img {
+    height: 100%;
+    width: 100%;
+    box-shadow: -2px -2px 10px yellow;
 }
