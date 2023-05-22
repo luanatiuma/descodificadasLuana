@@ -1,0 +1,30 @@
+:root {
+    --backgound: #AFD3E2;
+    --margin: #19A7CE;
+    --extraColor: #146C94;
+    --extraColor2: #F6F1F1;
+}
+
+body{
+    background-color: var(--backgound);
+}
+
+.grid {
+    row-gap: 20px;
+    padding: 15px;
+    background-color: var(--extraColor);
+}
+
+.gridOne {
+    column-gap: 100px;
+}
+.onda1 {
+    display: -ms-inline-grid;
+    height: 600px;
+    justify-content: center;
+    
+}
+.onda2 {
+    width: 400px;
+    height: 800px;
+}
