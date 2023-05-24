@@ -19,6 +19,7 @@ width: 300px;
 height: auto;
 animation: batimento 1s ease-out;
 animation-delay: 5ms;
+animation-iteration-count: infinite;
 }
 
 @keyframes batimento {
