@@ -1,4 +1,4 @@
-
+//Quando se usa promtpt ele aparece na página html, quando se usa console.log ele aparece somente no console js
 //Estudo de If/Else
 var i = prompt("Escreva um número")
 if (i > 10){
@@ -8,7 +8,7 @@ else {
     prompt("Este número é menor que 10!")
 }
 
-// //Estudo de While
+//Estudo de While
 var j = prompt("Escreva um número")
 while (j<10) {
     j++
@@ -43,7 +43,7 @@ switch(digit) {
 
 //Estudo de Funções
 function escreva(){
-    prompt("Hello!")
+    console.log("Hello!")
 }
 escreva()
 
